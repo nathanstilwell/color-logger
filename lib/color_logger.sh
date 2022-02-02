@@ -59,6 +59,7 @@ function log () {
   local OPTIND verbose=0
   # check if message
   [[ -n "${1}" ]] || {
+    echo;
     return;
   }
 

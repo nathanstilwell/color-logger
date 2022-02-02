@@ -78,7 +78,3 @@ Logging diffent formatting inline with `-n`
 would log
 
 ![](inline.png)
-
-## Notes
-
-This script uses associative arrays which are **not** a feature in bash 3.x, which is the version of bash on OS X systems. In short, if you are running scripts on a mac you are going to have to zsh or ksh. Color logger has a zsh shebang.
