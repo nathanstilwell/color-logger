@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 . lib/color_logger.sh;
 
@@ -84,4 +84,4 @@ log ", " -n
 log "Enjoy!" -lbu -c "bright_red"
 log
 log " ❤" -c "red" -n
-log " Nathan" -c "red"
+log " Nathan + Saltuk" -c "red"
